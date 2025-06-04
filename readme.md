@@ -1,4 +1,4 @@
-# dev-camp-anchor-0.31.1
+# solana-developer-bootcamp-2025 (anchor-0.31.1 version)
 
 Since the current github.com:solana-developers/developer-bootcamp-2024.git uses an older version of Anchor (0.30.0), but the current version of Anchor is 0.31.1 (4th June 2025), I decided to create a new tutorial.
 I'm a Solana newbie with a good amount of experience with EVM, Solidity, and TypeScript. So by the end of the tutorial, we shall all be Solana experts ;)
