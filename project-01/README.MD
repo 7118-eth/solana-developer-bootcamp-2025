@@ -53,7 +53,8 @@ solana config set --url localhost
 solana-keygen new --no-bip39-passphrase #we dont set up a pw for now, because we are only on localhost
 
 
-solana config get
+Solana config get
+
 Config File: /Users/$USER/.config/solana/cli/config.yml
 RPC URL: http://localhost:8899 
 WebSocket URL: ws://localhost:8900/ (computed)
@@ -62,3 +63,30 @@ Commitment: confirmed
 
 ```
 
+
+```
+solana address
+GajyV26ZW5LDEzv2oeiBqWBdZeDJTW6DMoqPEB3MsWos ##example address. pls use your own address
+
+
+#start your own solana test validator in the current working directory. it will always create a test-ledger.
+#its already in the git ignore
+#feel free to remove that directory if you want to reset the state
+
+test-ledger
+
+test-ledger
+Log: test-ledger/validator.log
+⠋ Initializing...                                                                                                  Waiting for fees to stabilize 1...
+Identity: CaUdYPCrvC34jw4eTA3iQq91Mn6nnuz6KrFiPc83SFTm
+Genesis Hash: HvNwXHdohTpFdPKzcKLrJpyWzdXpe5Z3wxg6D7q67ZKW
+Version: 2.1.22
+Shred Version: 60192
+Gossip Address: 127.0.0.1:1024
+TPU Address: 127.0.0.1:1027
+JSON RPC URL: http://127.0.0.1:8899
+WebSocket PubSub URL: ws://127.0.0.1:8900
+⠒ 00:00:35 | Processed Slot: 75 | Confirmed Slot: 75 | Finalized Slot: 44 | Full Snapshot Slot: - | Incremental Sna
+
+
+```
