@@ -102,3 +102,7 @@ Signature: 4sv34hs1e3egYLg7wPwK72ZR7LsqRpEgLm929Bp6g4HxzTbB4sxmDyo7z4s9PKTHdoDgM
 
 500000002 SOL
 ```
+
+
+# now here comes the fun party. 
+`anchor init anchor-contracts`
