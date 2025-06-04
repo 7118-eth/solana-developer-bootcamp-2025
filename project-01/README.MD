@@ -75,7 +75,6 @@ GajyV26ZW5LDEzv2oeiBqWBdZeDJTW6DMoqPEB3MsWos ##example address. pls use your own
 
 test-ledger
 
-test-ledger
 Log: test-ledger/validator.log
 ⠋ Initializing...                                                                                                  Waiting for fees to stabilize 1...
 Identity: CaUdYPCrvC34jw4eTA3iQq91Mn6nnuz6KrFiPc83SFTm
@@ -89,4 +88,17 @@ WebSocket PubSub URL: ws://127.0.0.1:8900
 ⠒ 00:00:35 | Processed Slot: 75 | Confirmed Slot: 75 | Finalized Slot: 44 | Full Snapshot Slot: - | Incremental Sna
 
 
+```
+
+```
+solana config set -ul
+solana balance
+500000000 SOL
+
+solana airdrop 2
+Requesting airdrop of 2 SOL
+
+Signature: 4sv34hs1e3egYLg7wPwK72ZR7LsqRpEgLm929Bp6g4HxzTbB4sxmDyo7z4s9PKTHdoDgMkuPDepcmgQFjDK7b7hq
+
+500000002 SOL
 ```
