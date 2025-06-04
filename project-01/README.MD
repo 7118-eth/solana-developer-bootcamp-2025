@@ -20,5 +20,29 @@ stable-2694497991ec20761d820f8a39933222a1017bf6
 stable-3861dcebbc15c3d6022208b227bdf13e797af941
 2.1.0
 
+agave-install list 
+stable-2694497991ec20761d820f8a39933222a1017bf6
+1.18.26
+stable-3861dcebbc15c3d6022208b227bdf13e797af941
+2.1.0
+
+
+avm --version
+avm 0.31.1
+
+anchor --version
+anchor-cli 0.31.1
+
+node --version
+v24.1.0
+
+yarn --version
+1.22.22
+
+sw_vers #if you are using macOS
+ProductName:		macOS
+ProductVersion:		15.5
+BuildVersion:		24F74
+
 ```
 
