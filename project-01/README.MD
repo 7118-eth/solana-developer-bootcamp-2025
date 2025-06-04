@@ -106,3 +106,6 @@ Signature: 4sv34hs1e3egYLg7wPwK72ZR7LsqRpEgLm929Bp6g4HxzTbB4sxmDyo7z4s9PKTHdoDgM
 
 # now here comes the fun party. 
 `anchor init anchor-contracts`
+`cd anchor-contracts`
+`anchor build`
+
