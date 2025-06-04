@@ -43,6 +43,22 @@ sw_vers #if you are using macOS
 ProductName:		macOS
 ProductVersion:		15.5
 BuildVersion:		24F74
+```
+
+
+
+```
+solana config set --url localhost
+
+solana-keygen new --no-bip39-passphrase #we dont set up a pw for now, because we are only on localhost
+
+
+solana config get
+Config File: /Users/$USER/.config/solana/cli/config.yml
+RPC URL: http://localhost:8899 
+WebSocket URL: ws://localhost:8900/ (computed)
+Keypair Path: /Users/$USER/.config/solana/id.json 
+Commitment: confirmed
 
 ```
 
