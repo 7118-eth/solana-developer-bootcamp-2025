@@ -109,3 +109,22 @@ Signature: 4sv34hs1e3egYLg7wPwK72ZR7LsqRpEgLm929Bp6g4HxzTbB4sxmDyo7z4s9PKTHdoDgM
 `cd anchor-contracts`
 `anchor build`
 
+
+# in order to deploy it on the local node, run:
+```
+anchor deploy
+Deploying cluster: http://127.0.0.1:8899
+Upgrade authority: /Users/$USER/.config/solana/id.json
+Deploying program "anchor_contracts"...
+Program path: /Users/$USER/git/2025/solana/solana-developer-bootcamp-2025/anchor-contracts/target/deploy/anchor_contracts.so...
+Program Id: AuZ2yuo5wAr4Lzz9gRq6DJepjHuTK88HKW5NaUZBzNh4
+
+Signature: 3yXmGR6CATJoG1wwSKG3DcPodvTX3UZDK7QPUw3bZZgqsaxNaz3kSEfRjg2gZZ6St1kpcW3jEWPwC4Z189f3NgNW
+
+Deploy success
+```
+
+notice that the test-ledger direcotry can get quite big (please dont call it folders, folders are a windows term, we call it in the unix world directories)
+you might clean up that directory from time to time.
+
+
